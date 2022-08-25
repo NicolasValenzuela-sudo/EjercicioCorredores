@@ -1,6 +1,14 @@
 #include <iostream>
+#include "Carrera.h"
+#include "Corredor.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    Carrera carrera;
+
+    carrera.setNombreCarrera("Carrera de verano");
+
+    carrera.calculo();
+
     return 0;
 }

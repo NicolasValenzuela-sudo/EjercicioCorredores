@@ -3,4 +3,4 @@ project(Templatecpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Templatecpp main.cpp)
+add_executable(Templatecpp main.cpp Carrera.cpp Carrera.h Corredor.cpp Corredor.h)
